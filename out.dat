@@ -1,0 +1,7 @@
+goos: darwin
+goarch: amd64
+pkg: bench/pkg
+cpu: Intel(R) Core(TM) i5-1038NG7 CPU @ 2.00GHz
+BenchmarkAny_S-8   	  621697	      1877 ns/op
+PASS
+ok  	bench/pkg	59.490s
