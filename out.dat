@@ -2,6 +2,62 @@ goos: darwin
 goarch: amd64
 pkg: bench/pkg
 cpu: Intel(R) Core(TM) i5-1038NG7 CPU @ 2.00GHz
-BenchmarkAny_S-8   	  621697	      1877 ns/op
+BenchmarkAny_S-8   	  783436	      1513 ns/op
 PASS
-ok  	bench/pkg	59.490s
+ok  	bench/pkg	77.083s
+goos: darwin
+goarch: amd64
+pkg: bench/pkg
+cpu: Intel(R) Core(TM) i5-1038NG7 CPU @ 2.00GHz
+BenchmarkAny_M-8   	  465264	      4662 ns/op
+PASS
+ok  	bench/pkg	90.947s
+goos: darwin
+goarch: amd64
+pkg: bench/pkg
+cpu: Intel(R) Core(TM) i5-1038NG7 CPU @ 2.00GHz
+BenchmarkAny_L-8   	  409280	     10223 ns/op
+PASS
+ok  	bench/pkg	181.639s
+goos: darwin
+goarch: amd64
+pkg: bench/pkg
+cpu: Intel(R) Core(TM) i5-1038NG7 CPU @ 2.00GHz
+BenchmarkAll_S-8   	  342172	      3724 ns/op
+PASS
+ok  	bench/pkg	36.191s
+goos: darwin
+goarch: amd64
+pkg: bench/pkg
+cpu: Intel(R) Core(TM) i5-1038NG7 CPU @ 2.00GHz
+BenchmarkAll_M-8   	  312628	      6386 ns/op
+PASS
+ok  	bench/pkg	96.362s
+goos: darwin
+goarch: amd64
+pkg: bench/pkg
+cpu: Intel(R) Core(TM) i5-1038NG7 CPU @ 2.00GHz
+BenchmarkAll_L-8   	  403144	      7920 ns/op
+PASS
+ok  	bench/pkg	156.474s
+goos: darwin
+goarch: amd64
+pkg: bench/pkg
+cpu: Intel(R) Core(TM) i5-1038NG7 CPU @ 2.00GHz
+BenchmarkRace_S-8   	  273789	      4292 ns/op
+PASS
+ok  	bench/pkg	28.428s
+goos: darwin
+goarch: amd64
+pkg: bench/pkg
+cpu: Intel(R) Core(TM) i5-1038NG7 CPU @ 2.00GHz
+BenchmarkRace_M-8   	  432920	     12839 ns/op
+PASS
+ok  	bench/pkg	136.431s
+goos: darwin
+goarch: amd64
+pkg: bench/pkg
+cpu: Intel(R) Core(TM) i5-1038NG7 CPU @ 2.00GHz
+BenchmarkRace_L-8   	  458629	     21468 ns/op
+PASS
+ok  	bench/pkg	346.954s
