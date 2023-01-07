@@ -2,6 +2,62 @@ goos: darwin
 goarch: amd64
 pkg: github.com/lbsekr/promise/pkg
 cpu: Intel(R) Core(TM) i5-1038NG7 CPU @ 2.00GHz
-BenchmarkAny_S-8   	  419635	      2546 ns/op
+BenchmarkAny_S-8   	  487956	      2277 ns/op
 PASS
-ok  	github.com/lbsekr/promise/pkg	35.202s
+ok  	github.com/lbsekr/promise/pkg	37.481s
+goos: darwin
+goarch: amd64
+pkg: github.com/lbsekr/promise/pkg
+cpu: Intel(R) Core(TM) i5-1038NG7 CPU @ 2.00GHz
+BenchmarkAny_M-8   	  425299	      2576 ns/op
+PASS
+ok  	github.com/lbsekr/promise/pkg	41.046s
+goos: darwin
+goarch: amd64
+pkg: github.com/lbsekr/promise/pkg
+cpu: Intel(R) Core(TM) i5-1038NG7 CPU @ 2.00GHz
+BenchmarkAny_L-8   	  396480	      2794 ns/op
+PASS
+ok  	github.com/lbsekr/promise/pkg	42.358s
+goos: darwin
+goarch: amd64
+pkg: github.com/lbsekr/promise/pkg
+cpu: Intel(R) Core(TM) i5-1038NG7 CPU @ 2.00GHz
+BenchmarkAll_S-8   	  476643	      2239 ns/op
+PASS
+ok  	github.com/lbsekr/promise/pkg	36.746s
+goos: darwin
+goarch: amd64
+pkg: github.com/lbsekr/promise/pkg
+cpu: Intel(R) Core(TM) i5-1038NG7 CPU @ 2.00GHz
+BenchmarkAll_M-8   	  475827	      2582 ns/op
+PASS
+ok  	github.com/lbsekr/promise/pkg	47.200s
+goos: darwin
+goarch: amd64
+pkg: github.com/lbsekr/promise/pkg
+cpu: Intel(R) Core(TM) i5-1038NG7 CPU @ 2.00GHz
+BenchmarkAll_L-8   	  423808	      2703 ns/op
+PASS
+ok  	github.com/lbsekr/promise/pkg	45.703s
+goos: darwin
+goarch: amd64
+pkg: github.com/lbsekr/promise/pkg
+cpu: Intel(R) Core(TM) i5-1038NG7 CPU @ 2.00GHz
+BenchmarkRace_S-8   	  563578	      1921 ns/op
+PASS
+ok  	github.com/lbsekr/promise/pkg	42.794s
+goos: darwin
+goarch: amd64
+pkg: github.com/lbsekr/promise/pkg
+cpu: Intel(R) Core(TM) i5-1038NG7 CPU @ 2.00GHz
+BenchmarkRace_M-8   	  541765	      2088 ns/op
+PASS
+ok  	github.com/lbsekr/promise/pkg	51.008s
+goos: darwin
+goarch: amd64
+pkg: github.com/lbsekr/promise/pkg
+cpu: Intel(R) Core(TM) i5-1038NG7 CPU @ 2.00GHz
+BenchmarkRace_L-8   	  526288	      2134 ns/op
+PASS
+ok  	github.com/lbsekr/promise/pkg	55.073s
